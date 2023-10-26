@@ -53,6 +53,18 @@
     <Compile Include="Controls\HomeUserControl.Designer.cs">
       <DependentUpon>HomeUserControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Controls\IdentifyAreasControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\IdentifyAreasControl.Designer.cs">
+      <DependentUpon>IdentifyAreasControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\MatchColumnsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\MatchColumnsControl.Designer.cs">
+      <DependentUpon>MatchColumnsControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controls\ReplaceBooksUserControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -65,6 +77,18 @@
     <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\IdentifyingAreas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\IdentifyingAreas.Designer.cs">
+      <DependentUpon>IdentifyingAreas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MatchColumns.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MatchColumns.Designer.cs">
+      <DependentUpon>MatchColumns.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\Replacing_Books.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,11 +100,23 @@
     <EmbeddedResource Include="Controls\HomeUserControl.resx">
       <DependentUpon>HomeUserControl.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Controls\IdentifyAreasControl.resx">
+      <DependentUpon>IdentifyAreasControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MatchColumnsControl.resx">
+      <DependentUpon>MatchColumnsControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Controls\ReplaceBooksUserControl.resx">
       <DependentUpon>ReplaceBooksUserControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\IdentifyingAreas.resx">
+      <DependentUpon>IdentifyingAreas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MatchColumns.resx">
+      <DependentUpon>MatchColumns.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Replacing_Books.resx">
       <DependentUpon>Replacing_Books.cs</DependentUpon>
@@ -200,6 +236,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\winner.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Match.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_btn.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

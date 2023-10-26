@@ -223,6 +223,16 @@ namespace DeweyDecimalClassification_POE_Part1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Columns {
+            get {
+                object obj = ResourceManager.GetObject("Columns", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap congrats {
             get {
                 object obj = ResourceManager.GetObject("congrats", resourceCulture);
@@ -273,6 +283,16 @@ namespace DeweyDecimalClassification_POE_Part1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap home_btn {
+            get {
+                object obj = ResourceManager.GetObject("home_btn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap incorrect {
             get {
                 object obj = ResourceManager.GetObject("incorrect", resourceCulture);
@@ -286,6 +306,36 @@ namespace DeweyDecimalClassification_POE_Part1.Properties {
         internal static System.Drawing.Bitmap library {
             get {
                 object obj = ResourceManager.GetObject("library", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Match {
+            get {
+                object obj = ResourceManager.GetObject("Match", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap match_btn {
+            get {
+                object obj = ResourceManager.GetObject("match_btn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_btn {
+            get {
+                object obj = ResourceManager.GetObject("menu_btn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -356,6 +406,26 @@ namespace DeweyDecimalClassification_POE_Part1.Properties {
         internal static System.Drawing.Bitmap shelf2 {
             get {
                 object obj = ResourceManager.GetObject("shelf2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap start {
+            get {
+                object obj = ResourceManager.GetObject("start", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap try_btn {
+            get {
+                object obj = ResourceManager.GetObject("try_btn", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

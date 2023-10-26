@@ -26,5 +26,13 @@ namespace DeweyDecimalClassification_POE_Part1.Controls
             welcome.Hide();
             books.ShowDialog();
         }
+
+        private void btnIdentifyAreas_Click(object sender, EventArgs e)
+        {
+            IdentifyingAreas areas = new IdentifyingAreas();
+            WelcomeWindow welcome = new WelcomeWindow();
+            welcome.Hide();
+            areas.ShowDialog();
+        }
     }
 }

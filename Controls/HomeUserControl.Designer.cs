@@ -58,7 +58,6 @@
             this.btnIdentifyAreas.BackgroundImage = global::DeweyDecimalClassification_POE_Part1.Properties.Resources.open_book2;
             this.btnIdentifyAreas.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnIdentifyAreas.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnIdentifyAreas.Enabled = false;
             this.btnIdentifyAreas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnIdentifyAreas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIdentifyAreas.Location = new System.Drawing.Point(439, 398);
@@ -67,6 +66,7 @@
             this.btnIdentifyAreas.TabIndex = 56;
             this.btnIdentifyAreas.Text = "Identify Areas";
             this.btnIdentifyAreas.UseVisualStyleBackColor = false;
+            this.btnIdentifyAreas.Click += new System.EventHandler(this.btnIdentifyAreas_Click);
             // 
             // btnReplaceBook
             // 
