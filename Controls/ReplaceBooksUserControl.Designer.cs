@@ -65,6 +65,7 @@
             this.pBCongrats = new System.Windows.Forms.PictureBox();
             this.pBOutOfTime = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.pBtnBack = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBoxCorrect)).BeginInit();
@@ -75,6 +76,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBlost)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBCongrats)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBOutOfTime)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBtnBack)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -539,11 +541,21 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 17.18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.LavenderBlush;
-            this.label1.Location = new System.Drawing.Point(77, 36);
+            this.label1.Location = new System.Drawing.Point(161, 47);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(793, 33);
             this.label1.TabIndex = 86;
             this.label1.Text = "Sort the Books in Ascending Order before time runs out!";
+            // 
+            // pBtnBack
+            // 
+            this.pBtnBack.BackgroundImage = global::DeweyDecimalClassification_POE_Part1.Properties.Resources.back;
+            this.pBtnBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pBtnBack.Location = new System.Drawing.Point(16, 19);
+            this.pBtnBack.Name = "pBtnBack";
+            this.pBtnBack.Size = new System.Drawing.Size(130, 34);
+            this.pBtnBack.TabIndex = 87;
+            this.pBtnBack.TabStop = false;
             // 
             // ReplaceBooksUserControl
             // 
@@ -551,6 +563,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
             this.BackgroundImage = global::DeweyDecimalClassification_POE_Part1.Properties.Resources.brick_wall2;
+            this.Controls.Add(this.pBtnBack);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pBOutOfTime);
             this.Controls.Add(this.pBCongrats);
@@ -598,6 +611,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pBlost)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBCongrats)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pBOutOfTime)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pBtnBack)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -641,5 +655,6 @@
         private System.Windows.Forms.PictureBox pBCongrats;
         private System.Windows.Forms.PictureBox pBOutOfTime;
         private System.Windows.Forms.Label label1;
+        public System.Windows.Forms.PictureBox pBtnBack;
     }
 }

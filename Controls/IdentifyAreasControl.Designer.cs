@@ -88,6 +88,6 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox btnStart;
-        private System.Windows.Forms.PictureBox btnMenu;
+        public System.Windows.Forms.PictureBox btnMenu;
     }
 }

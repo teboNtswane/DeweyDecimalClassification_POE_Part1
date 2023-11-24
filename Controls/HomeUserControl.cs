@@ -34,5 +34,11 @@ namespace DeweyDecimalClassification_POE_Part1.Controls
             welcome.Hide();
             areas.ShowDialog();
         }
+
+        private void btnFindCall_Click(object sender, EventArgs e)
+        {
+            FindCallNumber find = new FindCallNumber();
+            find.ShowDialog();
+        }
     }
 }

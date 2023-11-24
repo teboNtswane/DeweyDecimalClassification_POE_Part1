@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DeweyDecimalClassification_POE_Part1.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,28 +9,25 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DeweyDecimalClassification_POE_Part1.Forms
+namespace DeweyDecimalClassification_POE_Part1.Controls
 {
-    public partial class MatchColumns : Form
+    public partial class FindingCallNumbers : UserControl
     {
-        public MatchColumns()
+        public FindingCallNumbers()
         {
             InitializeComponent();
-
-            //Closes the current form
-            matchColumnsControl1.pbtnMainMenu.Click += Menu_Click;
         }
 
         //---------------------------------------------------------------------------------------------------------------
         /// <summary>
-        /// This event allows the user to go back to the previous page by closing the current page.
+        /// This event will take the user to the Instructions Form where they will be informed on how to play the game.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Menu_Click(object sender, EventArgs e)
+        private void ptnStart_Click(object sender, EventArgs e)
         {
-            this.Close();
-
+            CallNrInstructions instruct = new CallNrInstructions();
+            instruct.ShowDialog();
         }
     }
 }

@@ -45,6 +45,9 @@ namespace DeweyDecimalClassification_POE_Part1.Forms
             replaceBooksUserControl1.btnH.Click += new EventHandler(button_Click);
             replaceBooksUserControl1.btnI.Click += new EventHandler(button_Click);
             replaceBooksUserControl1.btnJ.Click += new EventHandler(button_Click);
+
+            //Closes page
+            replaceBooksUserControl1.pBtnBack.Click += new EventHandler(Menu_Click);
         }
 
 
@@ -60,6 +63,17 @@ namespace DeweyDecimalClassification_POE_Part1.Forms
 
             // Invokes the Button_Click event of the ReplaceBooksUserControl 
             replaceBooksUserControl1.Button_Click(clickedButton, e);
+        }
+        //---------------------------------------------------------------------------------------------------------------
+        /// <summary>
+        /// This event allows the user to go back to the previous page by closing the current page.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Menu_Click(object sender, EventArgs e)
+        {
+            this.Close();
+
         }
     }
 }

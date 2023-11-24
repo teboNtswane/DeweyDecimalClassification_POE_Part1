@@ -173,11 +173,11 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ListBox listBoxCallNumbers;
         private System.Windows.Forms.ListBox listBoxDescriptions;
-        private System.Windows.Forms.PictureBox pbtnMainMenu;
         private System.Windows.Forms.PictureBox pbtnMatchCheck;
         private System.Windows.Forms.PictureBox pbtnTryAgain;
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Timer tmrRemaining;
         private System.Windows.Forms.Label lblScore;
+        public System.Windows.Forms.PictureBox pbtnMainMenu;
     }
 }

@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace DeweyDecimalClassification_POE_Part1.Forms
 {
-    public partial class MatchColumns : Form
+    public partial class CallNrInstructions : Form
     {
-        public MatchColumns()
+        public CallNrInstructions()
         {
             InitializeComponent();
 
-            //Closes the current form
-            matchColumnsControl1.pbtnMainMenu.Click += Menu_Click;
+            //Closes current form
+            instructions1.pBtnBack.Click += Menu_Click;
         }
 
         //---------------------------------------------------------------------------------------------------------------
@@ -31,6 +31,7 @@ namespace DeweyDecimalClassification_POE_Part1.Forms
             this.Close();
 
         }
+
     }
 }
 ///-------------------------------------------->000ooo...END OF FILE...ooo000<---------------------------------------------

@@ -118,6 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="welcome_page" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\welcome_page.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Book3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Book3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -136,11 +139,14 @@
   <data name="backgroud1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\backgroud1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="start" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\start.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="button_empty" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_empty.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="check" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\check.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Book5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Book5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_btn.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Book1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Book1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -148,8 +154,14 @@
   <data name="brick wall2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\brick wall2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="retry" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\retry.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="shelf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shelf1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="try_btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\try_btn.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="open book2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\open book2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Match" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Match.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,8 +181,8 @@
   <data name="alexandra-vezhnovets-library" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\alexandra-vezhnovets-library.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Book5" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Book5.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="congrats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\congrats.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="incorrect" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\incorrect.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,14 +193,17 @@
   <data name="gameOver" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\gameOver.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Book7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Book7.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="match_btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\match_btn.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shelf1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shelf1.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="start" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Book8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Book8.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Book6" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Book6.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,34 +217,46 @@
   <data name="winner" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\winner.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Book2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Book2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="how_toPlay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\how_toPlay.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Book8" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Book8.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lets-go" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lets-go.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="home_btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\home_btn.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Book7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Book7.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu_btn2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu_btn2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="start_quiz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start_quiz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="menu_btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\menu_btn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="open book2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\open book2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="retry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\retry.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Book9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Book9.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="start_quiz1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\start_quiz.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="open book3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\open book3.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="congrats" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\congrats.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Book2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Book2.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Book 11" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Book 11.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="try_btn" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\try_btn.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="retry1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\retry1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

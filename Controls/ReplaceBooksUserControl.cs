@@ -196,8 +196,7 @@ namespace DeweyDecimalClassification_POE_Part1.Controls
             {
                 pBoxIncorrect.Visible = true;
                 tmrRemaining.Stop();
-                btnRetry.Visible = true;
-                btnRetry.Enabled = true;
+               
             }
         }
 
@@ -210,42 +209,45 @@ namespace DeweyDecimalClassification_POE_Part1.Controls
         /// <param name="e"></param>
         private void btnRetry_Click(object sender, EventArgs e)
         {
-            generateList.Clear();
-            sortedList.Clear();
-            userInputList.Clear();
-            lblTime.Text = null;
-            //resets timer
-            tmrRemaining.Dispose();
-            tmrRemaining.Start();
-
-            btn1.Text = null;
-            btn2.Text = null;
-            btn3.Text = null;
-            btn4.Text = null;
-            btn5.Text = null;
-            btn6.Text = null;
-            btn7.Text = null;
-            btn8.Text = null;
-            btn9.Text = null;
-            btn10.Text = null;
-
-            btnA.Enabled = true;
-            btnB.Enabled = true;
-            btnC.Enabled = true;
-            btnD.Enabled = true;
-            btnE.Enabled = true;
-            btnF.Enabled = true;
-            btnG.Enabled = true;
-            btnH.Enabled = true;
-            btnI.Enabled = true;
-            btnJ.Enabled = true;
-
-            pBoxCorrect.Visible = false;
-            pBoxIncorrect.Visible = false;
-
-            lboxSorted.Items.Clear();
-
+            this.Controls.Clear();
+            this.InitializeComponent();
             SetButtonText();
+            //generateList.Clear();
+            //sortedList.Clear();
+            //userInputList.Clear();
+            //lblTime.Text = null;
+            ////resets timer
+            //tmrRemaining.Dispose();
+            //tmrRemaining.Start();
+
+            //btn1.Text = null;
+            //btn2.Text = null;
+            //btn3.Text = null;
+            //btn4.Text = null;
+            //btn5.Text = null;
+            //btn6.Text = null;
+            //btn7.Text = null;
+            //btn8.Text = null;
+            //btn9.Text = null;
+            //btn10.Text = null;
+
+            //btnA.Enabled = true;
+            //btnB.Enabled = true;
+            //btnC.Enabled = true;
+            //btnD.Enabled = true;
+            //btnE.Enabled = true;
+            //btnF.Enabled = true;
+            //btnG.Enabled = true;
+            //btnH.Enabled = true;
+            //btnI.Enabled = true;
+            //btnJ.Enabled = true;
+
+            //pBoxCorrect.Visible = false;
+            //pBoxIncorrect.Visible = false;
+
+            //lboxSorted.Items.Clear();
+
+            //SetButtonText();
 
         }
 
@@ -263,12 +265,12 @@ namespace DeweyDecimalClassification_POE_Part1.Controls
                 btnRetry.Enabled = true;
                 timeRemaining = timeRemaining - 1;
                 lblTime.Text = timeRemaining + " " + "Seconds";
-                btnRetry.Visible = false;
+                
             }
             else
             {
                 btnCheck.Enabled = false;
-                btnRetry.Visible = true;
+                timeRemaining = 55;
                 pBlost.Visible = true;
                 pBOutOfTime.Visible = true;
             }

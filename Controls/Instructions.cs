@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DeweyDecimalClassification_POE_Part1.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -8,28 +9,26 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace DeweyDecimalClassification_POE_Part1.Forms
+namespace DeweyDecimalClassification_POE_Part1.Controls
 {
-    public partial class MatchColumns : Form
+    public partial class Instructions : UserControl
     {
-        public MatchColumns()
+        public Instructions()
         {
             InitializeComponent();
-
-            //Closes the current form
-            matchColumnsControl1.pbtnMainMenu.Click += Menu_Click;
         }
 
         //---------------------------------------------------------------------------------------------------------------
         /// <summary>
-        /// This event allows the user to go back to the previous page by closing the current page.
+        /// This event will allow the user to start the quiz after reading the instructions provided on this form before playing the game.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
-        private void Menu_Click(object sender, EventArgs e)
-        {
-            this.Close();
 
+        private void pBtnLetsGo_Click(object sender, EventArgs e)
+        {
+            StartQuiz quiz = new StartQuiz();
+            quiz.ShowDialog();
         }
     }
 }

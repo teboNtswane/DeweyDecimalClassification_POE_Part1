@@ -73,6 +73,16 @@ namespace DeweyDecimalClassification_POE_Part1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap back {
+            get {
+                object obj = ResourceManager.GetObject("back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap backgroud1 {
             get {
                 object obj = ResourceManager.GetObject("backgroud1", resourceCulture);
@@ -203,6 +213,16 @@ namespace DeweyDecimalClassification_POE_Part1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap button_empty {
+            get {
+                object obj = ResourceManager.GetObject("button_empty", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap check {
             get {
                 object obj = ResourceManager.GetObject("check", resourceCulture);
@@ -293,9 +313,29 @@ namespace DeweyDecimalClassification_POE_Part1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap how_toPlay {
+            get {
+                object obj = ResourceManager.GetObject("how_toPlay", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap incorrect {
             get {
                 object obj = ResourceManager.GetObject("incorrect", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lets_go {
+            get {
+                object obj = ResourceManager.GetObject("lets-go", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -336,6 +376,16 @@ namespace DeweyDecimalClassification_POE_Part1.Properties {
         internal static System.Drawing.Bitmap menu_btn {
             get {
                 object obj = ResourceManager.GetObject("menu_btn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap menu_btn2 {
+            get {
+                object obj = ResourceManager.GetObject("menu_btn2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -393,6 +443,16 @@ namespace DeweyDecimalClassification_POE_Part1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap retry1 {
+            get {
+                object obj = ResourceManager.GetObject("retry1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap shelf1 {
             get {
                 object obj = ResourceManager.GetObject("shelf1", resourceCulture);
@@ -423,9 +483,39 @@ namespace DeweyDecimalClassification_POE_Part1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap start_quiz {
+            get {
+                object obj = ResourceManager.GetObject("start_quiz", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap start_quiz1 {
+            get {
+                object obj = ResourceManager.GetObject("start_quiz1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap try_btn {
             get {
                 object obj = ResourceManager.GetObject("try_btn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap welcome_page {
+            get {
+                object obj = ResourceManager.GetObject("welcome_page", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

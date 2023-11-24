@@ -10,14 +10,15 @@ using System.Windows.Forms;
 
 namespace DeweyDecimalClassification_POE_Part1.Forms
 {
-    public partial class MatchColumns : Form
+    public partial class StartQuiz : Form
     {
-        public MatchColumns()
+        public StartQuiz()
         {
             InitializeComponent();
 
             //Closes the current form
-            matchColumnsControl1.pbtnMainMenu.Click += Menu_Click;
+            startQuizControl1.pBtnBack.Click += new EventHandler(Menu_Click);
+
         }
 
         //---------------------------------------------------------------------------------------------------------------
